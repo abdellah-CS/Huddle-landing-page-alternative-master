@@ -1,0 +1,930 @@
+body {
+    margin-bottom: -22px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    color: hsl(192, 100%, 9%);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    line-height: 1.5;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+
+section {
+    overflow-x: hidden;
+}
+
+/*******ID SECTION********/
+
+#hero {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+#features {
+    margin-top: 11.5%;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 250px 154px 35px 154px;
+    color: hsl(193, 100%, 96%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0px;
+}
+
+/*******CLASS SECTION********/
+
+
+/**NAVBAR**/
+.navbar {
+    margin: 0;
+    padding: 3% 6%;
+}
+
+/**HERO SECTION**/
+#hero h1 {
+    width: 501px;
+    margin-left: 113px;
+}
+
+#hero p {
+    width: 611px;
+    margin-left: 113px;
+}
+
+#hero .row {
+    margin-top: 27px;
+    padding-bottom: 81px;
+}
+
+#hero .first {
+    margin-top: 113px;
+}
+
+#hero .row img {
+    width: 89%;
+}
+
+
+/**FEATURES SECTION**/
+#features .feature {
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 4px 14px #d1d1d1;
+    margin: 4% 6%;
+    padding: 63px;
+    margin-bottom: 30px;
+}
+
+#features img {
+    width: 79%;
+    float: right;
+}
+
+#features p {
+    color: hsl(208, 11%, 55%);
+    line-height: 1.5;
+    width: 481px;
+}
+
+#features .f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#features .first {
+    width: fit-content;
+    margin: auto;
+}
+
+#features .second img {
+    float: left;
+    margin-left: 7%;
+}
+
+/**CTA SECTION**/
+#cta .download {
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 4px 14px hsl(192, 100%, 9%);
+    margin: auto;
+    padding: 85px 163px;
+    z-index: 1;
+    position: relative;
+    top: 150px;
+    background-color: #fff;
+    width: 935px;
+}
+
+#cta h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+
+/**FOOTER SECTION**/
+footer a {
+    color: hsl(193, 100%, 96%);
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer .row {
+    margin: auto;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 40px;
+    filter: invert();
+}
+
+footer .first span {
+    position: relative;
+    left: 22px;
+}
+
+footer .first p {
+    color: hsl(193, 100%, 96%);
+    position: relative;
+    left: 23px;
+    bottom: 24px;
+    width: 365px;
+}
+
+footer .first .f {
+    position: relative;
+    bottom: 19px;
+}
+footer .second {
+    position: relative;
+    left: 207px;
+    top: 80px;
+}
+
+footer .second a {
+    text-decoration: none;
+}
+
+footer .second a:hover {
+    text-decoration: underline;
+}
+
+footer .third {
+    position: relative;
+    left: 119px;
+    top: 79px;
+}
+
+footer .third a {
+    text-decoration: none;
+}
+
+footer .third a:hover {
+    text-decoration: underline;
+}
+
+footer .four {
+    position: relative;
+    left: -15px;
+    top: 95px;
+}
+
+footer .second br {
+    margin-bottom: 20px;
+}
+
+footer .third br {
+    margin-bottom: 20px;
+}
+
+footer .four a {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    margin-right: 18px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+footer .four .f {
+    padding: 13px 13px 13px 16px;
+}
+
+footer .four .t {
+    padding: 15px 8px 14px 15px;
+}
+
+footer .four .i {
+    padding: 15px;
+}
+
+footer .four a:hover {
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+
+
+footer .cr p {
+    color: #fff;
+    float: right;
+    padding-right: 0.5%;
+    margin-top: 23px;
+}
+
+/******BUTTONS SECTION*******/
+
+/**1ST SECTION**/
+.butn1 {
+    border-radius: 100px;
+    box-shadow: 0px 4px 14px #d1d1d1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    font-size: 16px;
+    background-color: #fff;
+    padding: 13px;
+    text-decoration: none;
+    width: 230px;
+}
+
+.butn1:hover {
+    color: hsl(208, 11%, 55%);
+    text-decoration: none;
+    background-color: #fff;
+}
+
+/**2ND SECTION**/
+.btn2 {
+    border-radius: 100px;
+    box-shadow: 0px 4px 14px #d1d1d1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 16px 62px;
+    text-decoration: none;
+    margin-left: 113px;
+    margin-top: 27px;
+}
+
+.btn2:hover {
+    background-color: hsl(321, 100%, 78%);
+    text-decoration: none;
+    color: #fff;
+}
+
+/**3TH SECTION**/
+.btn3 {
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 0px 4px 14px #d1d1d1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 22px 114px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 27px;
+}
+
+.btn3:hover {
+    background-color: hsl(321, 100%, 78%);
+    color:  #fff;
+}
+
+
+/***RESPONSIVNESS***/
+
+@media only screen and (max-width: 1735px)
+{
+    footer {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 1547px)
+{
+    #hero .first {
+        margin-left: -23px;
+    }
+    #hero .first p {
+        width: 521px;
+        margin-top: 25px;
+    }
+
+    #hero .row img {
+        position: relative;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1359px)
+{
+    footer {
+        padding-bottom: 88px;
+    }
+
+    footer .first {
+        width: 50%;
+    }
+
+    footer .second {
+        width: 50%;
+        order: 2;
+        top: 95px;
+    }
+
+    footer .third {
+        width: 50%;
+        order: 4;
+        left: 206px;
+        top: 47px;
+    }
+
+    footer .four {
+        width: 50%;
+        order: 3;
+        top: 95px;
+        left: 0px;
+    }
+
+    footer .cr {
+        width: 381px;
+        margin: auto;
+    }
+
+    footer .cr p {
+        margin-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 1350px)
+{
+    #hero .first {
+        margin-left: -33px;
+    }
+
+    #hero .row img {
+        top: 60px;
+    } 
+}
+
+@media only screen and (max-width: 1304px)
+{
+    #hero .first {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 67px;
+    }
+
+    #hero .second {
+        width: 64%;
+        margin: auto;
+    }
+
+    #hero .row {
+        padding-bottom: 145px;
+    }
+
+    #hero .row img {
+        width: 100%;
+        top: 80px;
+    }
+
+    #hero h1 {
+        margin: auto;
+    }
+
+    #hero p {
+        margin: auto;
+        text-align: center;
+    }
+
+    .btn2 {
+        margin-left: 0px;
+    } 
+
+}
+
+
+
+@media only screen and (max-width: 1221px)
+{
+    #features .first p {
+        width: 386px;
+    }
+}
+
+@media only screen and (max-width: 1116px)
+{
+    .butn1 {
+        padding: 10px;
+        width: 215px;
+    }
+
+    #hero .navbar img {
+        width: 90%;
+    }
+
+    #features .first p {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1014px)
+{
+    #cta .download {
+        padding: 85px 1px;
+        width: 770px;
+    }
+
+    #cta h2 {
+        width: fit-content;
+        margin: auto;
+        font-size: 29px;
+    }
+
+    .btn3 {
+        padding: 20px 85px;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{
+    #features .feature {
+        margin: 4% 8%;
+        padding: 42px;
+    }
+
+    #features .f {
+        order: 2;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #features  .s {
+        margin-top: 45px;
+    }
+
+    #features .first {
+        text-align: center;
+    }
+
+    #features .first p {
+        text-align: center;
+        margin: auto;
+        width: 455px;
+    }
+
+    #features .order-md-1 {
+        order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #features img {
+        float: none;
+    }
+
+    #features .second img {
+        margin-left: 11%;
+    }
+}
+
+@media only screen and (max-width: 964px)
+{
+    footer .first {
+        width: 100%;
+    }
+
+    footer .second {
+        width: 100%;
+        order: 2;
+        top: 63px;
+        left: 0px;
+    }
+
+    footer .third {
+        width: 100%;
+        order: 3;
+        top: 79px;
+        left: 0;
+    } 
+
+    footer .four {
+        width: 100%;
+        order: 4;
+        top: 110px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .four .f {
+        padding: 11px 13px 13px 15px;
+    }
+
+    footer .four .t {
+        padding: 12px 8px 14px 11px;
+    }
+
+    footer .four .i {
+        padding: 10px 15px 15px 12px;
+    }
+
+    footer .cr p {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 841px)
+{
+    #cta .download {
+        width: 88%;
+        padding: 63px 1px;
+        top: 120px;
+    }
+
+    #cta h2 {
+        font-size: 24px;
+    }
+
+    .btn3 {
+        padding: 16px 55px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 754px)
+{
+    .butn1 {
+        padding: 8px;
+        width: 193px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 734px)
+{
+    #hero {
+        background-image: url(images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: hsl(193, 100%, 96%);
+    }
+}
+
+@media only screen and (max-width: 696px)
+{
+    #hero h1 {
+        width: 400px;
+    }
+
+    #hero .first p {
+        width: 426px;
+    }
+
+    #cta .download {
+        padding: 52px 1px;
+    }
+
+    #cta h2 {
+        font-size: 21px;
+    }
+
+    .btn3 {
+        padding: 14px 43px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 674px)
+{
+    #hero .navbar img {
+        width: 79%;
+    }
+
+    .butn1 {
+        padding: 6px;
+        width: 160px;
+    }
+
+    #features .first p {
+        width: 356px;
+    }
+
+    footer .four .i {
+        padding-top: 11px;
+    }
+}
+
+@media only screen and (max-width: 625px)
+{
+    #cta .download {
+        padding: 37px 1px;
+        top: 79px;
+    }
+
+    #cta h2 {
+        font-size: 18px;
+    }
+
+    .btn3 {
+        padding: 12px 35px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 607px)
+{
+    #hero .navbar img {
+        width: 67%;
+    }
+
+    .butn1 {
+        padding: 4px;
+        width: 126px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 579px)
+{
+    footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 554px)
+{
+    .butn1 {
+        margin-top: 6px;
+    }
+    #features .first p {
+        width: 281px;
+    }
+}
+
+@media only screen and (max-width: 544px)
+{
+    #hero .first p {
+        width: 361px;
+    }
+}
+
+@media only screen and (max-width: 524px)
+{
+    footer {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer .cr {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .four .f {
+        padding: 12px 13px  13px 16px;
+    }
+
+    footer .four .t {
+        padding: 13px 8px 14px 13px;
+    } 
+
+    footer .four .i {
+        padding: 11px 15px 15px 14px;
+    }
+}
+
+@media only screen and (max-width: 482px)
+{
+    #cta .download {
+        padding: 34px 1px;
+    }
+
+    #cta h2 {
+        font-size: 17px;
+    }
+
+    .btn3 {
+        padding: 11px 27px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 476px)
+{
+    .butn1 {
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 462px)
+{
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 438px)
+{
+    #hero .navbar img {
+        width: 63%;
+    }
+
+    .butn1 {
+        padding: 3px;
+        width: 111px;
+        font-size: 12px;
+    }
+
+    #hero .first p {
+        width: 294px;
+    }
+
+    #features .feature {
+        padding: 29px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    footer .first p {
+        width: 303px;
+    }
+
+    footer .four .i {
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 420px)
+{
+    #hero .navbar img {
+        width: 122px;
+    }
+
+    #hero .navbar a {
+        width: fit-content;
+    }
+
+    .butn1 {
+        padding: 2px;
+        width: 96px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 419px)
+{
+    footer .first p {
+        width: 248px;
+    }
+}
+
+@media only screen and (max-width: 409px)
+{
+    #cta h2 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 401px)
+{
+    #hero h1 {
+        font-size: 23px;
+        width: 302px;
+    }
+
+    #hero p {
+        width: 279px;
+    }
+
+    #features .feature {
+        padding: 20px;
+    }
+
+    #features .first p {
+        font-size: 16px;
+        width: 264px;
+    }
+}
+
+@media only screen and (max-width: 380px)
+{
+    footer .cr p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .butn1 {
+        margin-top: 9px;
+    }
+
+    #cta h2 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 362px)
+{
+    .btn2 {
+        padding: 14px 42px;
+    }
+
+    #features .first p {
+        font-size: 15px;
+        width: 234px;
+    }
+}
+
+@media only screen and (max-width: 349px)
+{
+    footer .first span {
+        left: 12px;
+    }
+
+    footer .cr p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 341px)
+{
+    #cta h2 {
+        font-size: 14px;
+    }
+
+    .btn3 {
+        padding: 10px 25px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 333px)
+{
+    footer {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+
+@media only screen and (max-width: 326px)
+{
+    #featurs .feature {
+        padding: 15px;
+    }
+
+    #features .first p {
+        font-size: 14px;
+    }
+}
+
+/****************D.O.N.E***************/
