@@ -100,7 +100,12 @@ footer {
     margin: 4% 6%;
     padding: 63px;
     margin-bottom: 30px;
+    transition: transform 0.5s;
 }
+
+#features .feature:hover {
+    transform: scale(1.1);
+}    
 
 #features img {
     width: 79%;
@@ -141,7 +146,12 @@ footer {
     top: 150px;
     background-color: #fff;
     width: 935px;
+    transition: transform 0.5s;
 }
+
+#cta .download:hover {
+    transform: scale(1.1);
+}    
 
 #cta h2 {
     font-family: 'Poppins', sans-serif;
@@ -496,7 +506,7 @@ footer .cr p {
 @media only screen and (max-width: 992px)
 {
     #features .feature {
-        margin: 4% 8%;
+        margin: 8%;
         padding: 42px;
     }
 
