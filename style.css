@@ -24,10 +24,6 @@ h3 {
     color: hsl(192, 100%, 9%);
 }
 
-section {
-    overflow-x: hidden;
-}
-
 /*******ID SECTION********/
 
 #hero {
@@ -36,10 +32,12 @@ section {
     background-position: center;
     background-size: cover;
     background-color: hsl(193, 100%, 96%);
+    overflow-x: hidden;
 }
 
 #features {
     margin-top: 11.5%;
+    overflow-x: hidden;
 }
 
 footer {
