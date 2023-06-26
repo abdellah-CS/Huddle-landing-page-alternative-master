@@ -453,6 +453,10 @@ footer .cr p {
         width: 215px;
     }
 
+    #hero .navbar {
+        padding: 6% 6% 3% 6%;
+    }
+
     #hero .navbar img {
         width: 90%;
     }
