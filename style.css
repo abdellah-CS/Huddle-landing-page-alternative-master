@@ -1,6 +1,9 @@
 body {
     margin-bottom: -22px;
     overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
