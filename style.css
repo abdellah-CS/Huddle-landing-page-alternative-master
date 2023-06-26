@@ -36,11 +36,17 @@ h3 {
     background-size: cover;
     background-color: hsl(193, 100%, 96%);
     overflow-x: hidden;
+    margin: 0;
 }
 
 #features {
     margin-top: 11.5%;
     overflow-x: hidden;
+    margin: 0;
+}
+
+#cta {
+    margin: 0;
 }
 
 footer {
